@@ -30,5 +30,8 @@
     <ClCompile Include="作业.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="提高.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -141,39 +141,43 @@ using namespace std;
 //	return 0;
 //}
 
-//合并石子								*** 未完 ***
-int main() {
-	int n, arr[1000] = { 0 }, brr[1000] = {0};//arr为输入的石子
-	cin >> n;
-	for (int i = 0; i < n; i++) {
-		cin >> arr[i];
-	}
-	long long num = 0;
-
-	for (int i = 1; i < n; i++) {			//n-1次合并
-
-		long long flag = 0x3f3f3f3f;
-		int tag;
-		for (int j = 0; j < n-i; j++) {
-			brr[j] = arr[j] + arr[j + 1];
-			if (brr[j] < flag)
-			{
-				flag = brr[j];
-				tag = j;
-			}
-		}
-
-		num += flag;
-		arr[tag] = flag;
-		for (int k = tag+1; k<n-i; k++) {
-			arr[k] = arr[k+1];
-		}
-
-
-	}
-	cout << num;
-	return 0;
-}
+////合并石子								*** 未完 ***
+//int main() {
+//	long long n, arr[1000] = { 0 }, brr[1000] = {0};//arr为输入的石子
+//	cin >> n;
+//	for (int i = 0; i < n; i++) {
+//		cin >> arr[i];
+//	}
+//	long long num = 0;
+//
+//	for (int i = 1; i < n; i++) {			//n-1次合并
+//
+//		long long flag = 0x3f3f3f3f;
+//		long long tag;
+//		for (int j = 0; j < n-i; j++) {
+//			brr[j] = arr[j] + arr[j + 1];
+//			if (brr[j] < flag)
+//			{
+//				flag = brr[j];
+//				tag = j;
+//			}
+//		}
+//
+//		num += flag;
+//		arr[tag] = flag;
+//		for (int k = tag+1;; k++) {
+//			if (arr[k+1] == 0) {
+//				arr[k] = 0;
+//				break;
+//			}
+//			arr[k] = arr[k+1];
+//		}
+//
+//
+//	}
+//	cout << num;
+//	return 0;
+//}
 
 //求最大值DP
 //int a[110];
