@@ -5,6 +5,9 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="源文件\提高">
+      <UniqueIdentifier>{cdb3ccf3-839b-4f9b-b8c6-8ec2eccc744e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="蓝桥.cpp">
@@ -22,8 +25,8 @@
     <ClCompile Include="作业.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="提高.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="P1001.cpp">
+      <Filter>源文件\提高</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

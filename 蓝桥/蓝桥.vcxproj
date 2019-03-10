@@ -154,7 +154,7 @@
   <ItemGroup>
     <ClCompile Include="作业.cpp" />
     <ClCompile Include="基础.cpp" />
-    <ClCompile Include="提高.cpp" />
+    <ClCompile Include="P1001.cpp" />
     <ClCompile Include="算法.cpp" />
     <ClCompile Include="进制转化.cpp" />
     <ClCompile Include="蓝桥.cpp" />
