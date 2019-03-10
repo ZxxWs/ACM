@@ -3,7 +3,7 @@
 #include"stack"
 using namespace std;
 
-//P1001  大数相乘：思路\数组的解决办法
+//P1001（66%）  大数相乘：思路\数组的解决办法
 //int main() {
 //	string a, b;
 //	int aa[8] = { 0 }, bb[8] = { 0 }, cc[16] = { 0 };
