@@ -37,5 +37,11 @@
     <ClCompile Include="P0505.cpp">
       <Filter>源文件\训练</Filter>
     </ClCompile>
+    <ClCompile Include="摩尔斯码.cpp">
+      <Filter>源文件\提高</Filter>
+    </ClCompile>
+    <ClCompile Include="P0102.cpp">
+      <Filter>源文件\提高</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

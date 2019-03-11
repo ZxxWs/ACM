@@ -152,6 +152,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="P0102.cpp" />
+    <ClCompile Include="摩尔斯码.cpp" />
     <ClCompile Include="作业.cpp" />
     <ClCompile Include="基础.cpp" />
     <ClCompile Include="P1001.cpp" />
