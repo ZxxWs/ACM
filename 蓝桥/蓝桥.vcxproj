@@ -152,7 +152,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="C++ CH08 01.cpp" />
     <ClCompile Include="P0102.cpp" />
+    <ClCompile Include="P0103.cpp" />
     <ClCompile Include="摩尔斯码.cpp" />
     <ClCompile Include="作业.cpp" />
     <ClCompile Include="基础.cpp" />

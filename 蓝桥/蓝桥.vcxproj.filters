@@ -43,5 +43,11 @@
     <ClCompile Include="P0102.cpp">
       <Filter>源文件\提高</Filter>
     </ClCompile>
+    <ClCompile Include="P0103.cpp">
+      <Filter>源文件\训练</Filter>
+    </ClCompile>
+    <ClCompile Include="C++ CH08 01.cpp">
+      <Filter>源文件\训练</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
