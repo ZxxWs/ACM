@@ -1,21 +1,13 @@
 
-答案？
-#include<iostream>
-#include<math.h>
-using namespace std;
-int main() {
-
-	int a, b, c, d,n,m;
-
-}
+//答案？
 
 #include <iostream> 
 #include <cassert> 
 using namespace std;
 class zrf_Ratio
 {
-	friend std::ostream&operator<<(std::ostream&, const zrf_Ratio&);
-	friend std::istream&operator>>(std::istream&, zrf_Ratio&);
+	friend ostream&operator<<(ostream&, const zrf_Ratio&);
+	friend istream&operator>>(istream&, zrf_Ratio&);
 	friend bool operator==(const zrf_Ratio&, const zrf_Ratio&);
 	friend bool operator<(const zrf_Ratio&, const zrf_Ratio&);
 public:
@@ -28,7 +20,10 @@ private:
 	void reduce();//化为最简分数
 };
 //补充完整构造函数
+ostream&operator<<(ostream&, const zrf_Ratio&) {
 
+
+	 }
 
 
 
@@ -92,8 +87,8 @@ int main()
 	int a = 0, b = 0, c = 0, d = 0;
 	cin >> a >> b >> c >> d;
 	zrf_Ratio zrf(a, b), ssh(c, d);
-	std::cout << "zrf is:" << zrf << "; ssh is:" << ssh << '\n';
-	std::cout << "(zrf==ssh) is:" << (zrf == ssh) << "; (zrf<ssh) is:" << (zrf < ssh) << endl;
+	cout << "zrf is:" << zrf << "; ssh is:" << ssh << '\n';
+	cout << "(zrf==ssh) is:" << (zrf == ssh) << "; (zrf<ssh) is:" << (zrf < ssh) << endl;
 	return 0;
 
 }
@@ -147,5 +142,4 @@ int main()
 //	std::cout << "(zrf==ssh) is:" << (n.result == m.result) << "; (zrf<ssh) is:" << (n.result < m.result) << endl;	
 //	return 0;
 //}
-
 

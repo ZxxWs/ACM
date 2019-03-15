@@ -1,6 +1,15 @@
-//#include<iostream>
-//using namespace std;
-//
+#include<iostream>
+using namespace std;
+
+
+//分治法 循环赛问题
+
+
+
+//减治法 可变规模问题
+
+
+
 //typedef struct point {
 //	int x = 0x3f3f3f3f;
 //	int y = 0x3f3f3f3f;

@@ -49,5 +49,8 @@
     <ClCompile Include="C++ CH08 01.cpp">
       <Filter>源文件\训练</Filter>
     </ClCompile>
+    <ClCompile Include="最大子段和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
