@@ -7,7 +7,75 @@ using namespace std;
 
 
 //减治法 可变规模问题，求数列n中第k小的数
+int arr[1000];
+int kk(int x,int y) {
+	int j,m;
+	m = arr[x];
+	j = x;
+	while (x<=y)
+	{
+		while (m<arr[y])
+		{
+			y--;
+		}
+		if(m>arr[y]) {
+			arr[j] = arr[y];
+			j = y;
+			y--;
+			}
+		while (m>arr[x])
+		{
+			x++;
+		}
+		if (m < arr[x]) {
+			arr[j] = arr[x];
+			j = x;
+			x++;
+		}
+		arr[j] = m;
+		
+	}
+	
+	return j;
+}
 
+
+int main() {
+	int n,  k;
+	cout << "输入数字个数" << endl;
+	cin >> n;
+	for (int i = 0; i < n; i++)
+	{
+		cin >> arr[i];
+	}
+	cout<<"输入查找的第几小的元素"<<endl;
+	cin >> k;
+
+	int lj = 0, rj = n - 1;
+	int j = kk(lj, rj);
+	cout << j << "j是这个" << endl;
+	while(n)
+	{
+
+		if ((j+1) == k) {
+			cout << "第" << k  << "小的数是" << arr[j] << endl;
+			return 0;
+		}
+		if (j > k) {
+			rj = j-1;
+			j = kk(lj,j);
+			
+		}
+		if (j < k) {
+			lj = j-1;
+			j = kk(j,rj);
+			
+		}
+
+		n--;
+	}
+
+}
 
 
 //typedef struct point {
