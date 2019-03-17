@@ -31,11 +31,9 @@ int kk(int x,int y) {
 			arr[j] = arr[x];
 			j = x;
 			x++;
-		}
-		arr[j] = m;
-		
+		}	
 	}
-	
+	arr[j] = m;
 	return j;
 }
 
