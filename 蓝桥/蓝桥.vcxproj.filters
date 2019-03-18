@@ -52,5 +52,8 @@
     <ClCompile Include="最大子段和.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="作业-循环.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
