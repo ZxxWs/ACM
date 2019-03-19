@@ -156,11 +156,13 @@
     <ClCompile Include="P0102.cpp" />
     <ClCompile Include="P0103.cpp" />
     <ClCompile Include="作业-循环.cpp" />
+    <ClCompile Include="合并石子.cpp" />
     <ClCompile Include="摩尔斯码.cpp" />
     <ClCompile Include="作业.cpp" />
     <ClCompile Include="基础.cpp" />
     <ClCompile Include="P1001.cpp" />
     <ClCompile Include="最大子段和.cpp" />
+    <ClCompile Include="矩阵乘法.cpp" />
     <ClCompile Include="算法.cpp" />
     <ClCompile Include="P0505.cpp" />
     <ClCompile Include="进制转化.cpp" />

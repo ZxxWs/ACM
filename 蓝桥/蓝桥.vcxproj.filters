@@ -55,5 +55,11 @@
     <ClCompile Include="作业-循环.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="矩阵乘法.cpp">
+      <Filter>源文件\提高</Filter>
+    </ClCompile>
+    <ClCompile Include="合并石子.cpp">
+      <Filter>源文件\提高</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
