@@ -61,5 +61,8 @@
     <ClCompile Include="合并石子.cpp">
       <Filter>源文件\提高</Filter>
     </ClCompile>
+    <ClCompile Include="矩阵相乘.cpp">
+      <Filter>源文件\提高</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
