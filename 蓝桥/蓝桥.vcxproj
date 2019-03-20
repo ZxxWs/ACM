@@ -153,8 +153,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="C++ CH08 01.cpp" />
+    <ClCompile Include="P0101.cpp" />
     <ClCompile Include="P0102.cpp" />
     <ClCompile Include="P0103.cpp" />
+    <ClCompile Include="用宏求球的体积.cpp" />
     <ClCompile Include="矩阵相乘.cpp" />
     <ClCompile Include="作业-循环.cpp" />
     <ClCompile Include="合并石子.cpp" />
