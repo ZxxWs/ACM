@@ -14,6 +14,9 @@
     <Filter Include="源文件\训练">
       <UniqueIdentifier>{220afce7-0b37-442f-afce-b47af749fc14}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\模拟">
+      <UniqueIdentifier>{092319d2-f12a-412d-88ec-e5fac4c4c675}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="蓝桥.cpp">
@@ -69,6 +72,21 @@
     </ClCompile>
     <ClCompile Include="用宏求球的体积.cpp">
       <Filter>源文件\提高</Filter>
+    </ClCompile>
+    <ClCompile Include="明码.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="乘积尾0.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="快排.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="四平方和.cpp">
+      <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="九数组分数.cpp">
+      <Filter>源文件\模拟</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
