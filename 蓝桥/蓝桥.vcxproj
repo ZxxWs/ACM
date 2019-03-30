@@ -158,12 +158,13 @@
     <ClCompile Include="P0103.cpp" />
     <ClCompile Include="乘积尾0.cpp" />
     <ClCompile Include="九数组分数.cpp" />
+    <ClCompile Include="动态规划实现最优二叉查找树.cpp" />
     <ClCompile Include="四平方和.cpp" />
     <ClCompile Include="快排.cpp" />
     <ClCompile Include="明码.cpp" />
+    <ClCompile Include="活动安排.cpp" />
     <ClCompile Include="用宏求球的体积.cpp" />
     <ClCompile Include="矩阵相乘.cpp" />
-    <ClCompile Include="作业-循环.cpp" />
     <ClCompile Include="合并石子.cpp" />
     <ClCompile Include="摩尔斯码.cpp" />
     <ClCompile Include="作业.cpp" />

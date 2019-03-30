@@ -17,6 +17,9 @@
     <Filter Include="源文件\模拟">
       <UniqueIdentifier>{092319d2-f12a-412d-88ec-e5fac4c4c675}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\作业">
+      <UniqueIdentifier>{a9419003-4557-497f-997a-50733008d533}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="蓝桥.cpp">
@@ -26,9 +29,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="算法.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="作业.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="P1001.cpp">
@@ -51,12 +51,6 @@
     </ClCompile>
     <ClCompile Include="C++ CH08 01.cpp">
       <Filter>源文件\训练</Filter>
-    </ClCompile>
-    <ClCompile Include="最大子段和.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="作业-循环.cpp">
-      <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="矩阵乘法.cpp">
       <Filter>源文件\提高</Filter>
@@ -87,6 +81,18 @@
     </ClCompile>
     <ClCompile Include="九数组分数.cpp">
       <Filter>源文件\模拟</Filter>
+    </ClCompile>
+    <ClCompile Include="活动安排.cpp">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="作业.cpp">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="最大子段和.cpp">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
+    <ClCompile Include="动态规划实现最优二叉查找树.cpp">
+      <Filter>源文件\作业</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
