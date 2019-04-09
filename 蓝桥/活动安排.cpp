@@ -32,3 +32,68 @@
 //	
 //	cout<<ActiveManage();
 //}
+#include <iostream>
+#include <string>
+using namespace std;
+
+//int main()
+//{
+//	int j;
+//	int n;
+//	//string S;
+//	//string T;
+//	char S[100],T[100];
+//	cin >> n;
+//	for (int i = 0; i < n; i++)
+//		cin >> S[i];
+//	int x = 0, y = n - 1;
+//	for (j = 0; j < n; j++)
+//	{
+//		if (S[x] >= S[y])
+//		{
+//			T[j] = S[y];
+//			y--;
+//			continue;
+//		}
+//		else
+//		{
+//			T[j] = S[x];
+//			x++;
+//			continue;
+//		}
+//	}
+//	for (int i = 0; i < n; i++)
+//		cout << T[i];
+//
+//
+//	return 0;
+//}
+int main()
+{
+	int j;
+	int n;
+	cin >> n;
+	string S;
+	string T;
+	cin >> S;
+	T = S;
+	int x = 0, y = n - 1;
+	for (j = 0; j < n; j++)
+	{
+		if (S[x] >= S[y])
+		{
+			T[j] = S[y];
+			y--;
+			continue;
+		}
+		else
+		{
+			T[j] = S[x];
+			x++;
+			continue;
+		}
+	}
+	cout << T;
+
+	return 0;
+}
