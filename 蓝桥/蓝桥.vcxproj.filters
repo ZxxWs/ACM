@@ -94,5 +94,8 @@
     <ClCompile Include="动态规划实现最优二叉查找树.cpp">
       <Filter>源文件\作业</Filter>
     </ClCompile>
+    <ClCompile Include="凸包问题.cpp">
+      <Filter>源文件\作业</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
