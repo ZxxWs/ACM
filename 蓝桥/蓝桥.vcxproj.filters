@@ -97,13 +97,13 @@
     <ClCompile Include="凸包问题.cpp">
       <Filter>源文件\作业</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\可视化\可视化\.cpp">
+    <ClCompile Include="作业快排.cpp">
       <Filter>源文件\作业</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\可视化\可视化\01背包.cpp">
+    <ClCompile Include="01背包.cpp">
       <Filter>源文件\作业</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\可视化\可视化\快排.cpp">
+    <ClCompile Include="贪心背包.cpp">
       <Filter>源文件\作业</Filter>
     </ClCompile>
   </ItemGroup>
