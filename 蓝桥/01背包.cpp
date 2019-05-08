@@ -24,8 +24,8 @@
 //void knapsack()
 //{
 //	int k, c;
-//	for (k = 1; k < N; k++)
-//		for (c = 1; c < W; c++)
+//	for (k = 1; k <= N; k++)
+//		for (c = 1; c <= W; c++)
 //			if (w[k] > c)
 //			{
 //				B[k][c] = B[k - 1][c];
@@ -47,6 +47,6 @@
 //{
 //	input();
 //	knapsack();
-//	cout << "背包内最大价值为：" << B[N - 1][W - 1];
+//	cout << "背包内最大价值为：" << B[N][W];
 //	return 0;
 //}
