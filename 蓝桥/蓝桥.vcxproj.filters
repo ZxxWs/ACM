@@ -97,7 +97,7 @@
     <ClCompile Include="凸包问题.cpp">
       <Filter>源文件\作业</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\可视化\可视化\背包问题.cpp">
+    <ClCompile Include="..\..\可视化\可视化\.cpp">
       <Filter>源文件\作业</Filter>
     </ClCompile>
     <ClCompile Include="..\..\可视化\可视化\01背包.cpp">
