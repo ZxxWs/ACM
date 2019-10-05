@@ -20,6 +20,9 @@
     <Filter Include="源文件\作业">
       <UniqueIdentifier>{a9419003-4557-497f-997a-50733008d533}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\大一国庆习题">
+      <UniqueIdentifier>{3a44d1c4-4866-461c-9d79-9d4d6f97800f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="蓝桥.cpp">
@@ -45,9 +48,6 @@
     </ClCompile>
     <ClCompile Include="P0102.cpp">
       <Filter>源文件\提高</Filter>
-    </ClCompile>
-    <ClCompile Include="P0103.cpp">
-      <Filter>源文件\训练</Filter>
     </ClCompile>
     <ClCompile Include="C++ CH08 01.cpp">
       <Filter>源文件\训练</Filter>
@@ -106,5 +106,34 @@
     <ClCompile Include="贪心背包.cpp">
       <Filter>源文件\作业</Filter>
     </ClCompile>
+    <ClCompile Include="7特殊的回文数.cpp">
+      <Filter>源文件\大一国庆习题</Filter>
+    </ClCompile>
+    <ClCompile Include="1大小写转换.cpp">
+      <Filter>源文件\大一国庆习题</Filter>
+    </ClCompile>
+    <ClCompile Include="2Fibonacci.cpp">
+      <Filter>源文件\大一国庆习题</Filter>
+    </ClCompile>
+    <ClCompile Include="3十六进制转八进制.cpp">
+      <Filter>源文件\大一国庆习题</Filter>
+    </ClCompile>
+    <ClCompile Include="4排序.cpp">
+      <Filter>源文件\大一国庆习题</Filter>
+    </ClCompile>
+    <ClCompile Include="5特殊的数字.cpp">
+      <Filter>源文件\大一国庆习题</Filter>
+    </ClCompile>
+    <ClCompile Include="8递归求值.cpp">
+      <Filter>源文件\大一国庆习题</Filter>
+    </ClCompile>
+    <ClCompile Include="9最小乘积.cpp">
+      <Filter>源文件\大一国庆习题</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="6回文数.cpp">
+      <Filter>源文件\大一国庆习题</Filter>
+    </None>
   </ItemGroup>
 </Project>
